@@ -12,12 +12,6 @@ namespace Bangazon
         {
             Bang bang = new Bang();
             bang.StartMenu();
-            string line = Console.ReadLine();
-            switch(line)
-            {
-                case "1": bang.CreateACustomer();
-                    break;
-            }
         }
     }
 }
